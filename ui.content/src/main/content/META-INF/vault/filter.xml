@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/etrade" mode="merge"/>
+    <filter root="/content/etrade" mode="merge"/>
+    <filter root="/content/dam/etrade" mode="merge">
+        <exclude pattern="/content/dam/etrade(/.*)?"/>
+        <include pattern="/content/dam/etrade/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/etrade/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/etrade" mode="merge"/>
+</workspaceFilter>
